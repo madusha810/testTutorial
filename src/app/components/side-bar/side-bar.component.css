@@ -1,0 +1,18 @@
+.sidebar {
+  margin: 10px;
+  width: 200px;
+  font-size: larger;
+  border-right: 1px solid black;
+}
+
+.link-text {
+  color: black !important;
+}
+
+.link-text {
+  text-decoration: none !important;
+}
+
+.selected-lesson {
+  background-color: lightgray;
+}

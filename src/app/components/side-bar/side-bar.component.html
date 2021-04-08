@@ -1,0 +1,12 @@
+<!-- Sidebar -->
+<nav id="sidebar" class="sidebar">
+  <ul class="list-unstyled components">
+    
+    
+    <ng-container *ngFor="let newmenuItem of New_Menu_Data">
+      <li routerLinkActive="select-lesson">
+        <a class="link-text" [routerLink]="newmenuItem.url">{{ newmenuItem.Navtitle }}</a>
+      </li>
+    </ng-container>
+  </ul>
+</nav>
